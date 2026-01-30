@@ -28,6 +28,6 @@ Ignition inhibited when unsafe| Pressed ignition button with missing safety cond
 Engine start when safe        | Pressed ignition button with all conditions met          |           Pass
 Engine stop                   | Pressed ignition button while engine was running         |           Pass
 
-
+---------------------------------------------------------------------------------------------------------------------------
 
 Summary of testing results. Create a table by summarizing the list of project behaviors for the two subsystems to organize the results. Fill in “Test Process” for each behavior, and then fill in the results
