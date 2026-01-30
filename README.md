@@ -38,7 +38,7 @@ Subsystem 1: Safety & Ignition Control
 
 
 Subsystem 2: Lighting Control
----------------------------------------------------------------------------------------------------------------------------
+
         Behavior                   |                      Test Process                         |          Result
 
      Headlights OFF mode           | Set mode selector to OFF and observed low beam            |           Pass
