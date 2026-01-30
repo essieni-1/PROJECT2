@@ -37,4 +37,20 @@ Subsystem 1: Safety & Ignition Control
      Engine stop                   | Pressed ignition button while engine was running          |           Pass
 
 
-Summary of testing results. Create a table by summarizing the list of project behaviors for the two subsystems to organize the results. Fill in “Test Process” for each behavior, and then fill in the results
+Subsystem 2: Lighting Control
+---------------------------------------------------------------------------------------------------------------------------
+        Behavior                   |                      Test Process                         |          Result
+
+     Headlights OFF mode           | Set mode selector to OFF and observed low beam            |           Pass
+
+     Headlights ON mode            | Set mode selector to ON and observed low beams            |           Pass
+
+     AUTO mode (dark)              | Reduced light sensor input to simulate darkness           |           Pass
+
+     AUTO mode (bright)            | Increased light sensor input to simulate daylight         |           Pass
+
+     AUTO mode delay behavior      | Rapidly changed light levels                              |           Pass
+
+     High-beam activation          | Pressed high-beam switch with headlights on               |           Pass
+
+     High-beam inhibited           | Pressed high-beam switch with headlights off              |           Pass
