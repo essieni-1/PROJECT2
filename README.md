@@ -13,6 +13,5 @@ This project builds on the structure and concepts developed in Project 1 of Iyen
 
 Summary of Testing Results:
 
------|--------------|--------| | Headlights OFF mode | Set mode selector to OFF and observed low beams | Pass – headlights remained off | | Headlights ON mode | Set mode selector to ON | Pass – low beams turned on | | AUTO mode (dark) | Covered light sensor to simulate low light | Pass – headlights turned on after delay | | AUTO mode (bright) | Exposed light sensor to bright light | Pass – headlights turned off after delay | | Delay behavior | Rapidly changed light levels | Pass – no flickering observed | | High-beam activation | Pressed high-beam switch while headlights on | Pass – high beams activated correctly | | High-beam inhibited | Pressed high-beam switch with headlights off | Pass – high beams remained off |
 
 Summary of testing results. Create a table by summarizing the list of project behaviors for the two subsystems to organize the results. Fill in “Test Process” for each behavior, and then fill in the results
