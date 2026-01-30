@@ -20,9 +20,9 @@ Subsystem 1: Safety & Ignition Control
 
         Behavior              |                      Test Process                        |          Result
 
-Driver seat detection         | Toggled driver seat input and observed serial output     |           Pass
+     Driver seat detection    | Toggled driver seat input and observed serial output     |           Pass
 
-Passenger seat detection      | Toggled passenger seat input and observed system response|           Pass
+     Passenger seat detection | Toggled passenger seat input and observed system response|           Pass
 
 Driver seatbelt detection     | Simulated belt fastened and unfastened states            |           Pass
 
