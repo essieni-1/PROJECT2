@@ -13,26 +13,6 @@ This project builds on the structure and concepts developed in Project 1 of Iyen
 
 Summary of Testing Results:
 
-Subsystem 1: Safety & Ignition Control
-Behavior	Test Process	Result
-Driver seat detection	Pressed and released driver seat input while monitoring serial output	Pass – system correctly detected seat state
-Passenger seat detection	Toggled passenger seat input and observed readiness LED	Pass
-Driver seatbelt detection	Simulated belt fastened/unfastened conditions	Pass
-Passenger seatbelt detection	Simulated belt fastened/unfastened conditions	Pass
-Ready-to-start indication	Verified green LED only turns on when all safety conditions are met	Pass
-Ignition inhibited when unsafe	Pressed ignition button with one or more conditions unmet	Pass – buzzer sounded and engine did not start
-Engine start when safe	Pressed ignition button with all conditions met	Pass – engine state latched and red LED turned on
-Engine stop	Pressed ignition button while engine running	Pass – engine stopped and outputs reset
-Subsystem 2: Lighting Control
-Behavior	Test Process	Result
-Headlights OFF mode	Set mode selector to OFF and observed low beams	Pass – headlights remained off
-Headlights ON mode	Set mode selector to ON	Pass – low beams turned on
-AUTO mode (dark)	Covered light sensor to simulate low light	Pass – headlights turned on after delay
-AUTO mode (bright)	Exposed light sensor to bright light	Pass – headlights turned off after delay
-Delay behavior	Rapidly changed light levels	Pass – no flickering observed
-High-beam activation	Pressed high-beam switch while headlights on	Pass – high beams activated correctly
-High-beam inhibited	Pressed high-beam switch with headlights off	Pass – high beams remained off
-instructions: 
-
+-----|--------------|--------| | Headlights OFF mode | Set mode selector to OFF and observed low beams | Pass – headlights remained off | | Headlights ON mode | Set mode selector to ON | Pass – low beams turned on | | AUTO mode (dark) | Covered light sensor to simulate low light | Pass – headlights turned on after delay | | AUTO mode (bright) | Exposed light sensor to bright light | Pass – headlights turned off after delay | | Delay behavior | Rapidly changed light levels | Pass – no flickering observed | | High-beam activation | Pressed high-beam switch while headlights on | Pass – high beams activated correctly | | High-beam inhibited | Pressed high-beam switch with headlights off | Pass – high beams remained off |
 
 Summary of testing results. Create a table by summarizing the list of project behaviors for the two subsystems to organize the results. Fill in “Test Process” for each behavior, and then fill in the results
