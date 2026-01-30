@@ -21,8 +21,8 @@ Driver seatbelt detection     | Simulated belt fastened and unfastened states   
 Passenger seatbelt detection  | Simulated belt fastened and unfastened states            |           Pass
 Ready-to-start indication     | Checked green LED when all safety conditions were met    |           Pass
 Ignition inhibited when unsafe| Pressed ignition button with missing safety conditions   |           Pass
-Engine start when safe        |Pressed ignition button with all conditions met           |           Pass
-Engine stop                   |Pressed ignition button while engine was running          |           Pass
+Engine start when safe        | Pressed ignition button with all conditions met          |           Pass
+Engine stop                   | Pressed ignition button while engine was running         |           Pass
 
 
 
