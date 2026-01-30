@@ -18,23 +18,23 @@ Summary of Testing Results:
 
 Subsystem 1: Safety & Ignition Control
 
-        Behavior              |                      Test Process                        |          Result
+        Behavior                   |                      Test Process                         |          Result
 
-     Driver seat detection    | Toggled driver seat input and observed serial output     |           Pass
+     Driver seat detection         | Toggled driver seat input and observed serial output      |           Pass
 
-     Passenger seat detection | Toggled passenger seat input and observed system response|           Pass
+     Passenger seat detection      | Toggled passenger seat input and observed system response |           Pass
 
-Driver seatbelt detection     | Simulated belt fastened and unfastened states            |           Pass
+     Driver seatbelt detection     | Simulated belt fastened and unfastened states             |           Pass
 
-Passenger seatbelt detection  | Simulated belt fastened and unfastened states            |           Pass
+     Passenger seatbelt detection  | Simulated belt fastened and unfastened states             |           Pass
 
-Ready-to-start indication     | Checked green LED when all safety conditions were met    |           Pass
+     Ready-to-start indication     | Checked green LED when all safety conditions were met     |           Pass
 
-Ignition inhibited when unsafe| Pressed ignition button with missing safety conditions   |           Pass
+     Ignition inhibited when unsafe| Pressed ignition button with missing safety conditions    |           Pass
 
-Engine start when safe        | Pressed ignition button with all conditions met          |           Pass
+     Engine start when safe        | Pressed ignition button with all conditions met           |           Pass
 
-Engine stop                   | Pressed ignition button while engine was running         |           Pass
+     Engine stop                   | Pressed ignition button while engine was running          |           Pass
 
 
 Summary of testing results. Create a table by summarizing the list of project behaviors for the two subsystems to organize the results. Fill in “Test Process” for each behavior, and then fill in the results
