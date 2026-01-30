@@ -12,6 +12,7 @@ Starting repository:
 This project builds on the structure and concepts developed in Project 1 of Iyene's code. The original repository included basic GPIO input and output handling using ESP-IDF. Project 2 expands on this by adding ADC-based sensing, timing logic, and multi-condition decision making.
 
 Summary of Testing Results:
+---------------------------------------------------------------------------------------------------------------------------
 
 Subsystem 1: Safety & Ignition Control
         Behavior              |                      Test Process                        |          Result
